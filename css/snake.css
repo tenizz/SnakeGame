@@ -1,0 +1,59 @@
+body{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: #1a8700;
+	font-size: 18px;
+	background-color: #2b2b2b;
+	text-shadow: 2px 2px 1px violet;
+}
+
+#name {
+	box-shadow: 1px 1px 2px violet;
+	background-color: #001701;
+	width: 20%;
+	border-radius: 5px;
+	position: relative;
+	top: 30%;
+	left: 40%;
+}
+
+#gameoverpage {
+	position: absolute;
+	top: 24%;
+	left: 37%;
+	font-size: 30px;
+	border-radius: 5px;
+	padding: 15px 50px 35px;
+	background-image: url("../images/snake.png");
+	background-color: #001701;
+	border: solid 2px violet;
+	color: #1a8700;
+	box-shadow: 1px 1px 25px violet;
+}
+
+#title {
+	background-color: #082b00;
+	padding: 15px;
+	border-radius: 10px;
+	border: inherit;
+}
+
+
+#playagainbtn {
+	background-color: #082b00;
+	margin-top: 20%;
+	font-size: inherit;
+	font-family: inherit;
+	color: inherit;
+	border-radius: 10px;
+	padding: 10px;	
+	border: inherit;
+	transition: 0.6s;
+	text-shadow: 1.5px 1.5px 1px violet;
+}
+
+#playagainbtn:hover {
+	background-color: #0a3800;
+	text-shadow: 1px 1px 1px violet;
+	box-shadow: 1px 1px 20px violet;
+}
