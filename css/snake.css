@@ -8,13 +8,21 @@ body{
 }
 
 #name {
-	box-shadow: 1px 1px 2px violet;
+	box-shadow: 1px 1px 25px violet;
 	background-color: #001701;
 	width: 20%;
 	border-radius: 5px;
 	position: relative;
 	top: 30%;
 	left: 40%;
+	animation: gif 7s infinite;
+}
+
+@keyframes gif {
+	0% {transform: rotate(0deg);}
+	25% {transform: rotate(5deg);}
+	75% {transform: rotate(-5deg);}
+	100% {transform: rotate(0deg);}
 }
 
 #gameoverpage {
